@@ -1,6 +1,6 @@
 # Car-Models-Recognition
 This model implements car models recognition using tranfer learning with EfficientNetB1 on Stanford Cars dataset.
-# Notes
+## Notes
 - This projects run on google colab
 ## Intructions
 1. Download pre-trained models from:
@@ -54,3 +54,6 @@ predict_one_image(test_model1, filename)
 image = plt.imread(filename)
 plt.imshow(image)
 ```
+## Reference
+[Tranfer Learning](http://digital-thinking.de/keras-transfer-learning-for-image-classification-with-effificientnet/)
+[Paper](https://arxiv.org/pdf/1905.11946.pdf)
